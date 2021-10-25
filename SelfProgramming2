@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class DoubleQuotes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\"This is a string literal\"");
+		System.out.println("\"123 Main Street\"");
+		System.out.println("\"X\"");
+
+	}
+
+}
