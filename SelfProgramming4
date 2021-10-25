@@ -1,0 +1,14 @@
+package selfProgramming;
+
+public class Roses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Roses are red,\n\tViolets are blue,"
+		      + "\nSugar is sweet,\n\tBut i have \"commitment issues\"," 
+			  + "\n\tSo I'd rather just be friends" 
+		      + "\n\tAt this point in our relationship.");
+
+	}
+
+}
