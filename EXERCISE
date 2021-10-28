@@ -1,0 +1,25 @@
+package numericaldata;
+
+public class RectangleComputation{
+	
+  static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+				double length;
+				double width;
+				double area;
+				double perimeter;
+				length = 7.5;
+				width = 2.0;
+				
+				area = length * width;
+				perimeter = length + length + width + width;
+				
+				System.out.printf("Area: %.2f cm " , area );
+				System.out.printf("\nPerimeter: %.2f cm", perimeter);
+				
+
+
+	}
+
+}
