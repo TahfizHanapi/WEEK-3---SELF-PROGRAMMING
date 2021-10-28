@@ -1,0 +1,46 @@
+package numericaldata;
+
+import java.util.Scanner;
+
+
+public class Exercise3 {
+
+	public static void main(String[] args) {//Dalam class mesti ada main method
+		String name;
+		int number1;
+	    int number2;
+	    int number3;
+	    int number4;
+	    int number5;
+	    int number6;
+	    int sum;
+	    
+	    Scanner scanMe = new Scanner(System.in); // "scanMe" boleh di ubah-ubah
+	    
+	    System.out.print("Enter your name: ");
+	    name = scanMe.next();
+	    System.out.println("Welcome" + name);
+	    
+	    System.out.print("Please enter amount 1: ");
+	    number1 = scanMe.nextInt();
+	    System.out.print("Please enter amount 2: ");
+	    number2 = scanMe.nextInt();
+	    System.out.print("Please enter amount 3: ");
+	    number3 = scanMe.nextInt();
+	    System.out.print("Please enter amount 4: ");
+	    number4 = scanMe.nextInt();
+	    System.out.print("Please enter amount 5: ");
+	    number5 = scanMe.nextInt();
+	    System.out.print("Please enter amount 6: ");
+	    number6 = scanMe.nextInt();
+	    
+	    sum = number1 + number2 + number3 + number4 + number5 + number6;
+	    System.out.println("Sum is: " + sum);
+	    
+	   
+	    
+	}
+
+}
+
+
