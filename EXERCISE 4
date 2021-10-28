@@ -1,0 +1,50 @@
+package numericaldata;
+
+import java.util.Scanner;
+
+
+public class Exercise4 {
+
+	public static void main(String[] args) {//Dalam class mesti ada main method
+		String name;
+		double bal1;
+		double bal2;
+		double amount;
+		char y;
+		char n;
+	    
+	    Scanner sc = new Scanner(System.in); // "scanMe" boleh di ubah-ubah
+	    
+	    System.out.print("Enter your name: ");
+	    name = sc.next();
+	    System.out.println("Welcome " + name + "!");
+	    
+	    System.out.print("Please enter your balance: RM ");
+	    bal1 = sc.nextInt();
+	    
+	    System.out.print("Please enter your amount: RM  ");
+	    amount = sc.nextInt();
+	    
+	    bal2= bal1 - amount;
+	    
+	    System.out.print("Your current balance: RM" + bal2);
+	    System.out.println();
+
+	    System.out.print("Do you want to proceed? ");
+	    y = sc.next().charAt(0);
+	    System.out.print("YES" + y);
+	    
+	    n = sc.next().charAt(0);
+	    System.out.print("NO" + n);
+	    
+	    
+	    
+	    
+	   
+	    
+	}
+
+}
+
+
+
