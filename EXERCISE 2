@@ -1,0 +1,21 @@
+package numericaldata;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+						
+		double mark1 = 3.09;
+	    double mark2 = 3.10;
+	    double cgpa;
+	   
+	    cgpa = (mark1 + mark2)/2;
+	    
+	    System.out.print("Keputusan Matrikulasi");
+	    System.out.println("\nSemester 1: " +  mark1);
+	    System.out.println("Semester 2: " + mark2);
+	    System.out.printf("CGPA: %.2f" , cgpa);
+	   
+	}
+
+}
