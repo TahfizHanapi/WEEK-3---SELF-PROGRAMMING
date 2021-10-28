@@ -1,0 +1,46 @@
+package numericaldata;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {//Dalam class mesti ada main method
+		int number1 = 11;
+	    int number2 = 22;
+	    int number3 = 33;
+	    int number4 = 44;
+	    int number5 = 55;
+	    double number6 = 66;
+	    double number7 = 88;
+	    float number8 = 99;
+	    float number9 = 200;
+	    int sum;
+	    int avg;
+	    double div;
+	    float div2;
+	    float mul;
+	    float mul2;
+	    
+	    
+	    sum = number1 + number2 + number3 + number4 + number5;
+	    avg = sum/5;
+	    div = number7/number6;
+	    div2 = number9/number8;
+	    mul = number1*number2*number3;
+	    mul2 = (number1*number3)/number3;
+	    
+	    System.out.print("The sum is: ");
+	    System.out.println(sum);
+	    
+	    System.out.println("The average is: " + avg);
+	    
+	    System.out.print("The divide number: " + div);
+	    
+	    System.out.printf("\nThe divide of float number: %.2f" , div2);
+	    
+	    System.out.printf("\nThe multiplication number is: %.2f " , mul);
+	    
+	    System.out.printf("\nThe total is: %.2f" , mul2);
+	    
+	    
+	}
+
+}
